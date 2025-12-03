@@ -1,0 +1,39 @@
+name: Run Chord Scraper
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"  # setiap hari 01:00 UTC (ubah jika perlu)
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    env:
+      BLOG_URL: https://indolawas.blogspot.com/   # ubah jika perlu
+      MAX_WORKERS: 12
+      PART_SIZE: 500
+      CHECKPOINT_EVERY: 50
+      REQUEST_TIMEOUT: 20
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run chord_collector (headless)
+        run: |
+          python chord_collector_fast.py --headless
+
+      - name: Upload parts as build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chord-parts
+          path: parts
