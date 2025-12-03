@@ -30,7 +30,7 @@ jobs:
 
       - name: Run chord_collector (headless)
         run: |
-          python chord_collector_fast.py --headless
+          python artikel.py --headless
 
       - name: Upload parts as build artifact
         uses: actions/upload-artifact@v4
