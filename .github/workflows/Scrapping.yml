@@ -2,8 +2,6 @@ name: Run Chord Scraper
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 1 * * *"  # setiap hari 01:00 UTC (ubah jika perlu)
 
 jobs:
   scrape:
