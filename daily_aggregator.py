@@ -15,7 +15,7 @@ HTML_HEAD = """ <!doctype html>
 <html><head><meta charset='utf-8'>
 <title>Chord Terpilih</title>
 </head><body>
-<h1>🎸 Chord Terpilih</h1>
+<h1> Chord Terpilih</h1>
 """
 HTML_TAIL = "</body></html>"================= UTIL =================
 
