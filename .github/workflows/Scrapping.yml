@@ -1,27 +1,34 @@
-name: Daily Chord Aggregator
+name: Daily Blog Aggregator Super Aman
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "0 1 * * *"   # 08:00 WIB
   workflow_dispatch:
 
 jobs:
   run:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - run: |
+      - name: Install dependencies
+        run: |
           pip install requests beautifulsoup4
-          python daily_aggregator.py
 
-      - run: |
+      - name: Run aggregator
+        run: |
+          python daily_blog_aggregator_safe.py
+
+      - name: Commit results
+        run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add parts queue results_cache.json
-          git commit -m "Daily chord aggregation" || echo "No changes"
+          git add output cache queue
+          git commit -m "Daily blog aggregation" || echo "No changes"
           git push
