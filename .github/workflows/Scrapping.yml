@@ -33,9 +33,8 @@ jobs:
 
       - name: Commit results
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git pull --rebase
-          git add output cache queue
-          git commit -m "Daily blog aggregation" || echo "No changes"
-          git push
+    git config user.name "github-actions"
+    git config user.email "actions@github.com"
+    git add output cache queue
+    git commit -m "Daily blog aggregation" || echo "No changes"
+    git push --force
