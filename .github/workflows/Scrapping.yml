@@ -23,7 +23,7 @@ jobs:
 
       - name: Debug queue
         run: |
-    echo "PWD: $(pwd)"
+        echo "PWD: $(pwd)"
     ls -lah queue
     cat queue/blogs.json
 
