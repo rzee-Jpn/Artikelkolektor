@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 """
 MODE C – BLOG QUEUE AGGREGATOR SUPER AMAN
-
-✔ 1 blog diproses penuh per hari
-✔ Antrian per blog
-✔ Output HTML dipisah per blog
-✔ Resume otomatis per artikel jika workflow mati
-✔ Delay acak & jeda panjang untuk anti-deteksi spam
 """
 
 import os
@@ -19,7 +13,6 @@ from xml.etree import ElementTree as ET
 from urllib.parse import urlparse
 
 # ================= CONFIG =================
-
 QUEUE_FILE = "queue/blogs.json"
 DONE_FILE = "queue/blogs_done.json"
 OUTPUT_ROOT = "output"
@@ -28,7 +21,7 @@ CACHE_ROOT = "cache"
 PART_SIZE = 500
 TIMEOUT = 20
 
-# Super aman delay config
+# Delay super aman
 REQUEST_DELAY_MIN = 0.6
 REQUEST_DELAY_MAX = 1.4
 LONG_PAUSE_EVERY = 25
@@ -53,75 +46,62 @@ HTML_HEAD = """<!doctype html>
 <body>
 <h1>🎸 Arsip Chord</h1>
 """
-
 HTML_TAIL = "</body></html>"
 
 # ================= UTIL =================
-
 def load_json(path, default):
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
     return default
 
-
 def save_json(path, data):
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-
 def blog_slug(url):
-    return urlparse(url).netloc
+    return urlparse(url).netloc.replace(".", "-")
 
 # ================= RSS =================
-
 def fetch_all_links(blog_url):
     print("Ambil RSS:", blog_url)
     links = []
     start = 1
-
     while True:
         feed = f"{blog_url.rstrip('/')}/feeds/posts/default?alt=rss&start-index={start}&max-results=500"
         try:
             r = requests.get(feed, timeout=TIMEOUT, headers=HEADERS)
             if r.status_code != 200:
                 break
-
             root = ET.fromstring(r.text)
             items = root.findall(".//item")
             if not items:
                 break
-
             for it in items:
                 link = it.findtext("link")
                 if link:
                     links.append(link)
-
             start += 500
             time.sleep(random.uniform(0.2,0.5))
         except Exception as e:
             print("Error ambil RSS:", e)
             time.sleep(ERROR_PAUSE)
-
     print(f"Total artikel: {len(links)}")
     return links
 
 # ================= SCRAPER =================
-
 def fetch_article(link):
     try:
         r = requests.get(link, timeout=TIMEOUT, headers=HEADERS)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         title = soup.title.text if soup.title else "Tanpa Judul"
-
         body = (
             soup.find("div", class_="post-body")
             or soup.find("div", class_="entry-content")
             or soup.find("article")
         )
-
         content = body.decode_contents() if body else "<p>(Gagal ambil isi)</p>"
         return f"<hr>\n<h2>{title}</h2>\n{content}\n<p><a href='{link}' target='_blank'>🔗 Sumber</a></p>"
     except Exception as e:
@@ -130,20 +110,17 @@ def fetch_article(link):
         return f"<hr><p>Gagal ambil: {link}</p>"
 
 # ================= BUILD =================
-
 def build_parts(blog_dir, snippets):
     parts = []
     for i in range(0, len(snippets), PART_SIZE):
         part_no = i // PART_SIZE + 1
         part_path = os.path.join(blog_dir, f"part{part_no}.html")
         parts.append(part_path)
-
         with open(part_path, "w", encoding="utf-8") as f:
             f.write(HTML_HEAD)
             for s in snippets[i:i + PART_SIZE]:
                 f.write(s)
             f.write(HTML_TAIL)
-
     index = os.path.join(blog_dir, "index.html")
     with open(index, "w", encoding="utf-8") as f:
         f.write(HTML_HEAD)
@@ -155,8 +132,8 @@ def build_parts(blog_dir, snippets):
         f.write(HTML_TAIL)
 
 # ================= MAIN =================
-
 def main():
+    os.makedirs(CACHE_ROOT, exist_ok=True)
     blogs = load_json(QUEUE_FILE, [])
     done = load_json(DONE_FILE, [])
 
@@ -184,8 +161,7 @@ def main():
         snippets_cache[link] = snippet
 
         # Delay acak
-        delay = random.uniform(REQUEST_DELAY_MIN, REQUEST_DELAY_MAX)
-        time.sleep(delay)
+        time.sleep(random.uniform(REQUEST_DELAY_MIN, REQUEST_DELAY_MAX))
 
         # Jeda panjang tiap N artikel
         if i % LONG_PAUSE_EVERY == 0:
@@ -197,7 +173,6 @@ def main():
         if i % 10 == 0:
             save_json(blog_cache_file, snippets_cache)
 
-    # Simpan cache terakhir
     save_json(blog_cache_file, snippets_cache)
 
     blog_dir = os.path.join(OUTPUT_ROOT, slug)
@@ -210,8 +185,5 @@ def main():
 
     print("SELESAI:", blog)
 
-# ================= ENTRY =================
-
 if __name__ == "__main__":
-    os.makedirs(CACHE_ROOT, exist_ok=True)
     main()
