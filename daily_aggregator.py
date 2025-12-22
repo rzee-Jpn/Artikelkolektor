@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 """
 MODE C – BLOG QUEUE AGGREGATOR SUPER AMAN
+
+✔ Ambil artikel dari RSS + archive page
+✔ Queue per blog
+✔ Resume otomatis per artikel jika workflow mati
+✔ Output HTML dipisah per blog
+✔ Delay acak & jeda panjang untuk anti-deteksi spam
 """
 
 import os
@@ -87,8 +93,37 @@ def fetch_all_links(blog_url):
         except Exception as e:
             print("Error ambil RSS:", e)
             time.sleep(ERROR_PAUSE)
-    print(f"Total artikel: {len(links)}")
+    print(f"Artikel dari RSS: {len(links)}")
     return links
+
+# ================= ARCHIVE SCRAPER =================
+def fetch_archive_links(blog_url):
+    print("Ambil archive pages:", blog_url)
+    links = set()
+    try:
+        # Loop halaman archive / search sampai habis
+        start = 0
+        while True:
+            archive_url = f"{blog_url.rstrip('/')}/search?max-results=1000&start={start}"
+            r = requests.get(archive_url, timeout=TIMEOUT, headers=HEADERS)
+            if r.status_code != 200:
+                break
+            soup = BeautifulSoup(r.text, "html.parser")
+            new_links = set()
+            for a in soup.select("h3.post-title a, h2.entry-title a"):
+                href = a.get("href")
+                if href:
+                    new_links.add(href)
+            if not new_links:
+                break
+            links.update(new_links)
+            start += 1000
+            time.sleep(random.uniform(0.2,0.5))
+    except Exception as e:
+        print("Error ambil archive:", e)
+        time.sleep(ERROR_PAUSE)
+    print(f"Artikel dari archive: {len(links)}")
+    return list(links)
 
 # ================= SCRAPER =================
 def fetch_article(link):
@@ -145,17 +180,23 @@ def main():
     slug = blog_slug(blog)
     print("Proses blog:", blog)
 
-    links = fetch_all_links(blog)
+    rss_links = fetch_all_links(blog)
+    archive_links = fetch_archive_links(blog)
+
+    # Gabungkan semua link unik
+    all_links = list(dict.fromkeys(rss_links + archive_links))
+    print(f"Total link unik: {len(all_links)}")
+
     blog_cache_file = os.path.join(CACHE_ROOT, f"{slug}.json")
     snippets_cache = load_json(blog_cache_file, {})
 
     snippets = []
-    for i, link in enumerate(links, 1):
+    for i, link in enumerate(all_links, 1):
         if link in snippets_cache:
             snippets.append(snippets_cache[link])
             continue
 
-        print(f"[{i}/{len(links)}] {link}")
+        print(f"[{i}/{len(all_links)}] {link}")
         snippet = fetch_article(link)
         snippets.append(snippet)
         snippets_cache[link] = snippet
