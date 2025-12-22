@@ -23,7 +23,7 @@ jobs:
 
       - name: Run aggregator
         run: |
-          python daily_blog_aggregator_safe.py
+          python daily_aggregator.py
 
       - name: Commit results
         run: |
