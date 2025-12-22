@@ -21,14 +21,21 @@ jobs:
         run: |
           pip install requests beautifulsoup4
 
+      - name: Debug queue
+        run: |
+    echo "PWD: $(pwd)"
+    ls -lah queue
+    cat queue/blogs.json
+
       - name: Run aggregator
         run: |
           python daily_aggregator.py
 
       - name: Commit results
-        - run: |
+        run: |
     git config user.name "github-actions"
     git config user.email "actions@github.com"
+    git pull --rebase
     git add output cache queue
     git commit -m "Daily blog aggregation" || echo "No changes"
-    git push --force
+    git push
