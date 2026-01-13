@@ -1,49 +1,142 @@
+/* =====================
+   BASE
+===================== */
+:root {
+  --bg: #0b0f14;
+  --panel: #111827;
+  --border: #1f2933;
+  --text: #d0d6dc;
+  --muted: #64748b;
+  --accent: #5eead4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  background: #0b0f14;
-  color: #d0d6dc;
+  background: var(--bg);
+  color: var(--text);
   font-family: system-ui, monospace;
+  line-height: 1.5;
 }
 
-header {
-  padding: 2rem;
-  border-bottom: 1px solid #1f2933;
+/* =====================
+   HEADER
+===================== */
+.header {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border);
 }
 
-h1 {
+.header h1 {
   margin: 0;
+  font-size: 1.25rem;
   letter-spacing: 1px;
 }
 
 .tag {
   font-size: 0.7rem;
-  color: #5eead4;
+  color: var(--accent);
+  letter-spacing: 0.1em;
 }
 
+/* =====================
+   MAIN GRID
+===================== */
 main {
-  padding: 2rem;
+  padding: 1.25rem;
   display: grid;
-  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
 }
 
+/* Tablet */
+@media (min-width: 640px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* =====================
+   CARD
+===================== */
 .card {
-  background: #111827;
-  border: 1px solid #1f2933;
-  padding: 1.5rem;
-  border-radius: 8px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  padding: 1.25rem;
+  border-radius: 10px;
+  position: relative;
+  transition: transform 0.15s ease, border-color 0.15s ease;
 }
 
+.card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+/* Title */
+.card strong {
+  font-size: 0.95rem;
+  display: block;
+}
+
+.card small {
+  font-size: 0.7rem;
+  color: var(--muted);
+  word-break: break-all;
+}
+
+/* =====================
+   SCORE
+===================== */
 .score {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 700;
+  margin: 0.75rem 0;
 }
 
-.low { color: #22c55e }
-.medium { color: #eab308 }
-.high { color: #ef4444 }
+.low { color: #22c55e; }
+.medium { color: #eab308; }
+.high { color: #ef4444; }
 
-footer {
-  padding: 1rem 2rem;
-  font-size: 0.8rem;
-  color: #64748b;
+/* =====================
+   META INFO
+===================== */
+.card br + text {
+  margin-top: 0.25rem;
+}
+
+.card b {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+}
+
+/* =====================
+   FOOTER
+===================== */
+.footer {
+  padding: 1rem 1.5rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+
+.header {
+  position: sticky;
+  top: 0;
+  background: rgba(11,15,20,0.85);
+  backdrop-filter: blur(8px);
+  z-index: 10;
 }
