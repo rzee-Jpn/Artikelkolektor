@@ -6,21 +6,17 @@ on:
   workflow_dispatch:
 
 jobs:
-  monitor:
+  run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - run: node monitor.js
-
-      - name: Commit health.json
-        run: |
-          git config user.name "health-bot"
+      - run: |
+          git config user.name "khm-bot"
           git config user.email "bot@users.noreply.github.com"
           git add health.json
-          git commit -m "update health"
+          git commit -m "update health" || exit 0
           git push
