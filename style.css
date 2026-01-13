@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: #0b0f14;
+  color: #d0d6dc;
+  font-family: system-ui, monospace;
+}
+
+header {
+  padding: 2rem;
+  border-bottom: 1px solid #1f2933;
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.tag {
+  font-size: 0.7rem;
+  color: #5eead4;
+}
+
+main {
+  padding: 2rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #1f2933;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.score {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.low { color: #22c55e }
+.medium { color: #eab308 }
+.high { color: #ef4444 }
+
+footer {
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  color: #64748b;
+}
