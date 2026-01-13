@@ -1,14 +1,61 @@
 [
-  {
-    "name": "Wikipedia – Climate Change",
-    "url": "https://en.wikipedia.org/wiki/Climate_change"
-  },
-  {
-    "name": "Wikipedia – Artificial Intelligence",
-    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
-  },
-  {
-    "name": "Project Gutenberg",
-    "url": "https://www.gutenberg.org/"
-  }
+  { "name": "Artificial intelligence", "url": "https://en.wikipedia.org/wiki/Artificial_intelligence" },
+  { "name": "History of artificial intelligence", "url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence" },
+  { "name": "Philosophy of artificial intelligence", "url": "https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence" },
+  { "name": "AI alignment", "url": "https://en.wikipedia.org/wiki/AI_alignment" },
+  { "name": "Artificial general intelligence", "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence" },
+
+  { "name": "Machine learning", "url": "https://en.wikipedia.org/wiki/Machine_learning" },
+  { "name": "Supervised learning", "url": "https://en.wikipedia.org/wiki/Supervised_learning" },
+  { "name": "Unsupervised learning", "url": "https://en.wikipedia.org/wiki/Unsupervised_learning" },
+  { "name": "Reinforcement learning", "url": "https://en.wikipedia.org/wiki/Reinforcement_learning" },
+  { "name": "Deep learning", "url": "https://en.wikipedia.org/wiki/Deep_learning" },
+
+  { "name": "Neural network", "url": "https://en.wikipedia.org/wiki/Neural_network" },
+  { "name": "Artificial neural network", "url": "https://en.wikipedia.org/wiki/Artificial_neural_network" },
+  { "name": "Convolutional neural network", "url": "https://en.wikipedia.org/wiki/Convolutional_neural_network" },
+  { "name": "Recurrent neural network", "url": "https://en.wikipedia.org/wiki/Recurrent_neural_network" },
+  { "name": "Transformer (machine learning model)", "url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)" },
+
+  { "name": "Linear regression", "url": "https://en.wikipedia.org/wiki/Linear_regression" },
+  { "name": "Logistic regression", "url": "https://en.wikipedia.org/wiki/Logistic_regression" },
+  { "name": "Gradient descent", "url": "https://en.wikipedia.org/wiki/Gradient_descent" },
+  { "name": "Backpropagation", "url": "https://en.wikipedia.org/wiki/Backpropagation" },
+  { "name": "Loss function", "url": "https://en.wikipedia.org/wiki/Loss_function" },
+
+  { "name": "Natural language processing", "url": "https://en.wikipedia.org/wiki/Natural_language_processing" },
+  { "name": "Computer vision", "url": "https://en.wikipedia.org/wiki/Computer_vision" },
+  { "name": "Speech recognition", "url": "https://en.wikipedia.org/wiki/Speech_recognition" },
+  { "name": "Knowledge representation", "url": "https://en.wikipedia.org/wiki/Knowledge_representation" },
+  { "name": "Expert system", "url": "https://en.wikipedia.org/wiki/Expert_system" },
+
+  { "name": "Feature engineering", "url": "https://en.wikipedia.org/wiki/Feature_engineering" },
+  { "name": "Overfitting", "url": "https://en.wikipedia.org/wiki/Overfitting" },
+  { "name": "Underfitting", "url": "https://en.wikipedia.org/wiki/Underfitting" },
+  { "name": "Bias–variance tradeoff", "url": "https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff" },
+  { "name": "Explainable artificial intelligence", "url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence" },
+
+  { "name": "AI safety", "url": "https://en.wikipedia.org/wiki/AI_safety" },
+  { "name": "Algorithmic bias", "url": "https://en.wikipedia.org/wiki/Algorithmic_bias" },
+  { "name": "Ethics of artificial intelligence", "url": "https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence" },
+  { "name": "AI governance", "url": "https://en.wikipedia.org/wiki/AI_governance" },
+  { "name": "Autonomous weapons", "url": "https://en.wikipedia.org/wiki/Autonomous_weapons" },
+
+  { "name": "Training data", "url": "https://en.wikipedia.org/wiki/Training_data" },
+  { "name": "Big data", "url": "https://en.wikipedia.org/wiki/Big_data" },
+  { "name": "Data labeling", "url": "https://en.wikipedia.org/wiki/Data_labeling" },
+  { "name": "Model training", "url": "https://en.wikipedia.org/wiki/Training_(machine_learning)" },
+  { "name": "Inference engine", "url": "https://en.wikipedia.org/wiki/Inference_engine" },
+
+  { "name": "Artificial intelligence in healthcare", "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare" },
+  { "name": "Artificial intelligence in finance", "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_finance" },
+  { "name": "Artificial intelligence in education", "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_education" },
+  { "name": "Artificial intelligence in warfare", "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_warfare" },
+  { "name": "Recommender system", "url": "https://en.wikipedia.org/wiki/Recommender_system" },
+
+  { "name": "Generative artificial intelligence", "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence" },
+  { "name": "Large language model", "url": "https://en.wikipedia.org/wiki/Large_language_model" },
+  { "name": "Chatbot", "url": "https://en.wikipedia.org/wiki/Chatbot" },
+  { "name": "Artificial intelligence regulation", "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_regulation" },
+  { "name": "Artificial intelligence applications", "url": "https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence" }
 ]
