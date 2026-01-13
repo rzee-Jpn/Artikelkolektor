@@ -1,10 +1,14 @@
-# Knowledge Health Monitor
+## Methodology Manifesto
 
-A lightweight system for measuring the stability and citation risk of public knowledge sources.
+This project monitors the stability of public knowledge sources using
+metadata-based longitudinal observation.
 
-- No content stored
-- No archive
-- No database
-- Metadata & signals only
+- Unit of analysis: individual article URLs
+- No content is stored or archived
+- No scraping of page text or structure
+- Observations rely on HTTP-level signals only
 
-Designed for researchers, analysts, and digital preservation studies.
+The goal is not to preserve content, but to assess citation risk,
+volatility, and long-term reliability of knowledge references.
+
+Absence of change is treated as a valid observation.
