@@ -26,3 +26,8 @@ fetch("health.json")
       root.appendChild(el);
     });
   });
+
+Citation Risk:
+<span class="badge ${r.citation_risk}">
+  ${r.citation_risk}
+</span>
