@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-26T05:47:21.565Z",
+  "generated_at": "2026-09-27T06:06:42.358Z",
   "results": [
     {
       "name": "Artificial intelligence",
       "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-      "observed_at": "2026-09-26T05:47:17.638Z",
+      "observed_at": "2026-09-27T06:06:39.972Z",
       "http_status": 200,
-      "response_time_ms": 277,
-      "content_length": 357511,
+      "response_time_ms": 95,
+      "content_length": 357521,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 1,
@@ -21,10 +21,10 @@
     {
       "name": "History of artificial intelligence",
       "url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-      "observed_at": "2026-09-26T05:47:17.693Z",
+      "observed_at": "2026-09-27T06:06:39.996Z",
       "http_status": 200,
-      "response_time_ms": 54,
-      "content_length": 214505,
+      "response_time_ms": 23,
+      "content_length": 215952,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 1,
@@ -38,48 +38,44 @@
     {
       "name": "Philosophy of artificial intelligence",
       "url": "https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence",
-      "observed_at": "2026-09-26T05:47:17.746Z",
+      "observed_at": "2026-09-27T06:06:40.017Z",
       "http_status": 200,
-      "response_time_ms": 53,
+      "response_time_ms": 21,
       "content_length": 88139,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 56,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "AI alignment",
       "url": "https://en.wikipedia.org/wiki/AI_alignment",
-      "observed_at": "2026-09-26T05:47:17.799Z",
+      "observed_at": "2026-09-27T06:06:40.039Z",
       "http_status": 200,
-      "response_time_ms": 53,
-      "content_length": 165377,
+      "response_time_ms": 22,
+      "content_length": 165446,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 26,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Artificial general intelligence",
       "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
-      "observed_at": "2026-09-26T05:47:17.854Z",
+      "observed_at": "2026-09-27T06:06:40.059Z",
       "http_status": 200,
-      "response_time_ms": 55,
-      "content_length": 146607,
+      "response_time_ms": 20,
+      "content_length": 146611,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 1,
@@ -93,10 +89,10 @@
     {
       "name": "Machine learning",
       "url": "https://en.wikipedia.org/wiki/Machine_learning",
-      "observed_at": "2026-09-26T05:47:17.907Z",
+      "observed_at": "2026-09-27T06:06:40.079Z",
       "http_status": 200,
-      "response_time_ms": 53,
-      "content_length": 196795,
+      "response_time_ms": 20,
+      "content_length": 196424,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 1,
@@ -110,47 +106,43 @@
     {
       "name": "Supervised learning",
       "url": "https://en.wikipedia.org/wiki/Supervised_learning",
-      "observed_at": "2026-09-26T05:47:17.961Z",
+      "observed_at": "2026-09-27T06:06:40.101Z",
       "http_status": 200,
-      "response_time_ms": 54,
-      "content_length": 41822,
+      "response_time_ms": 22,
+      "content_length": 41837,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 32,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Unsupervised learning",
       "url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
-      "observed_at": "2026-09-26T05:47:18.014Z",
+      "observed_at": "2026-09-27T06:06:40.122Z",
       "http_status": 200,
-      "response_time_ms": 53,
+      "response_time_ms": 21,
       "content_length": 51924,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 43,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Reinforcement learning",
       "url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
-      "observed_at": "2026-09-26T05:47:18.069Z",
+      "observed_at": "2026-09-27T06:06:40.145Z",
       "http_status": 200,
-      "response_time_ms": 54,
+      "response_time_ms": 23,
       "content_length": 122693,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
@@ -165,9 +157,9 @@
     {
       "name": "Deep learning",
       "url": "https://en.wikipedia.org/wiki/Deep_learning",
-      "observed_at": "2026-09-26T05:47:18.122Z",
+      "observed_at": "2026-09-27T06:06:40.167Z",
       "http_status": 200,
-      "response_time_ms": 53,
+      "response_time_ms": 22,
       "content_length": 221832,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
@@ -182,28 +174,26 @@
     {
       "name": "Neural network",
       "url": "https://en.wikipedia.org/wiki/Neural_network",
-      "observed_at": "2026-09-26T05:47:18.178Z",
+      "observed_at": "2026-09-27T06:06:40.193Z",
       "http_status": 200,
-      "response_time_ms": 56,
+      "response_time_ms": 26,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 23,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Artificial neural network",
       "url": "https://en.wikipedia.org/wiki/Artificial_neural_network",
-      "observed_at": "2026-09-26T05:47:18.230Z",
+      "observed_at": "2026-09-27T06:06:40.214Z",
       "http_status": 200,
-      "response_time_ms": 52,
+      "response_time_ms": 21,
       "content_length": 232139,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
@@ -218,10 +208,10 @@
     {
       "name": "Convolutional neural network",
       "url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-      "observed_at": "2026-09-26T05:47:18.251Z",
+      "observed_at": "2026-09-27T06:06:40.223Z",
       "http_status": 200,
-      "response_time_ms": 21,
-      "content_length": 166334,
+      "response_time_ms": 8,
+      "content_length": 166349,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 1,
@@ -235,48 +225,44 @@
     {
       "name": "Recurrent neural network",
       "url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
-      "observed_at": "2026-09-26T05:47:18.314Z",
+      "observed_at": "2026-09-27T06:06:40.243Z",
       "http_status": 200,
-      "response_time_ms": 63,
-      "content_length": 0,
+      "response_time_ms": 20,
+      "content_length": 131035,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 30,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Transformer (machine learning model)",
       "url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
-      "observed_at": "2026-09-26T05:47:18.565Z",
+      "observed_at": "2026-09-27T06:06:40.267Z",
       "http_status": 200,
-      "response_time_ms": 251,
-      "content_length": 0,
+      "response_time_ms": 24,
+      "content_length": 158798,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 47,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Linear regression",
       "url": "https://en.wikipedia.org/wiki/Linear_regression",
-      "observed_at": "2026-09-26T05:47:18.619Z",
+      "observed_at": "2026-09-27T06:06:40.288Z",
       "http_status": 200,
-      "response_time_ms": 54,
-      "content_length": 91509,
+      "response_time_ms": 21,
+      "content_length": 91523,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 1,
@@ -290,105 +276,95 @@
     {
       "name": "Logistic regression",
       "url": "https://en.wikipedia.org/wiki/Logistic_regression",
-      "observed_at": "2026-09-26T05:47:18.722Z",
+      "observed_at": "2026-09-27T06:06:40.309Z",
       "http_status": 200,
-      "response_time_ms": 103,
-      "content_length": 0,
+      "response_time_ms": 20,
+      "content_length": 161068,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 15,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Gradient descent",
       "url": "https://en.wikipedia.org/wiki/Gradient_descent",
-      "observed_at": "2026-09-26T05:47:18.927Z",
+      "observed_at": "2026-09-27T06:06:40.328Z",
       "http_status": 200,
-      "response_time_ms": 205,
-      "content_length": 0,
+      "response_time_ms": 19,
+      "content_length": 85502,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 24,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Backpropagation",
       "url": "https://en.wikipedia.org/wiki/Backpropagation",
-      "observed_at": "2026-09-26T05:47:19.018Z",
+      "observed_at": "2026-09-27T06:06:40.347Z",
       "http_status": 200,
-      "response_time_ms": 91,
-      "content_length": 0,
+      "response_time_ms": 19,
+      "content_length": 102581,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 28,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Loss function",
       "url": "https://en.wikipedia.org/wiki/Loss_function",
-      "observed_at": "2026-09-26T05:47:19.117Z",
+      "observed_at": "2026-09-27T06:06:40.367Z",
       "http_status": 200,
-      "response_time_ms": 99,
-      "content_length": 0,
+      "response_time_ms": 20,
+      "content_length": 51013,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 47,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Natural language processing",
       "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
-      "observed_at": "2026-09-26T05:47:19.211Z",
+      "observed_at": "2026-09-27T06:06:40.386Z",
       "http_status": 200,
-      "response_time_ms": 94,
-      "content_length": 0,
+      "response_time_ms": 19,
+      "content_length": 86812,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 14,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Computer vision",
       "url": "https://en.wikipedia.org/wiki/Computer_vision",
-      "observed_at": "2026-09-26T05:47:19.262Z",
+      "observed_at": "2026-09-27T06:06:40.405Z",
       "http_status": 200,
-      "response_time_ms": 51,
-      "content_length": 94290,
+      "response_time_ms": 19,
+      "content_length": 94226,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 1,
@@ -402,10 +378,10 @@
     {
       "name": "Speech recognition",
       "url": "https://en.wikipedia.org/wiki/Speech_recognition",
-      "observed_at": "2026-09-26T05:47:19.315Z",
+      "observed_at": "2026-09-27T06:06:40.427Z",
       "http_status": 200,
-      "response_time_ms": 53,
-      "content_length": 137460,
+      "response_time_ms": 21,
+      "content_length": 137430,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 1,
@@ -419,111 +395,101 @@
     {
       "name": "Knowledge representation",
       "url": "https://en.wikipedia.org/wiki/Knowledge_representation",
-      "observed_at": "2026-09-26T05:47:19.543Z",
+      "observed_at": "2026-09-27T06:06:40.446Z",
       "http_status": 200,
-      "response_time_ms": 228,
-      "content_length": 0,
+      "response_time_ms": 19,
+      "content_length": 63588,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 67,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Expert system",
       "url": "https://en.wikipedia.org/wiki/Expert_system",
-      "observed_at": "2026-09-26T05:47:19.595Z",
+      "observed_at": "2026-09-27T06:06:40.464Z",
       "http_status": 200,
-      "response_time_ms": 52,
+      "response_time_ms": 18,
       "content_length": 83483,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 38,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Feature engineering",
       "url": "https://en.wikipedia.org/wiki/Feature_engineering",
-      "observed_at": "2026-09-26T05:47:19.692Z",
+      "observed_at": "2026-09-27T06:06:40.495Z",
       "http_status": 200,
-      "response_time_ms": 97,
-      "content_length": 0,
+      "response_time_ms": 31,
+      "content_length": 44698,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 56,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Overfitting",
       "url": "https://en.wikipedia.org/wiki/Overfitting",
-      "observed_at": "2026-09-26T05:47:19.805Z",
+      "observed_at": "2026-09-27T06:06:40.514Z",
       "http_status": 200,
-      "response_time_ms": 113,
-      "content_length": 0,
+      "response_time_ms": 19,
+      "content_length": 51451,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 35,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Underfitting",
       "url": "https://en.wikipedia.org/wiki/Underfitting",
-      "observed_at": "2026-09-26T05:47:19.833Z",
+      "observed_at": "2026-09-27T06:06:40.563Z",
       "http_status": 200,
-      "response_time_ms": 28,
+      "response_time_ms": 49,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 33,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Bias–variance tradeoff",
       "url": "https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff",
-      "observed_at": "2026-09-26T05:47:19.885Z",
+      "observed_at": "2026-09-27T06:06:40.730Z",
       "http_status": 200,
-      "response_time_ms": 52,
-      "content_length": 64174,
+      "response_time_ms": 167,
+      "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 0.8,
       "volatility": "volatile",
-      "change_count_12m": 39,
-      "last_change_detected": "2026-09-26",
+      "change_count_12m": 40,
+      "last_change_detected": "2026-09-27",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
       "signals": [
@@ -533,35 +499,33 @@
     {
       "name": "Explainable artificial intelligence",
       "url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
-      "observed_at": "2026-09-26T05:47:19.949Z",
+      "observed_at": "2026-09-27T06:06:40.751Z",
       "http_status": 200,
-      "response_time_ms": 64,
-      "content_length": 0,
+      "response_time_ms": 21,
+      "content_length": 102311,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 44,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "AI safety",
       "url": "https://en.wikipedia.org/wiki/AI_safety",
-      "observed_at": "2026-09-26T05:47:20.002Z",
+      "observed_at": "2026-09-27T06:06:40.980Z",
       "http_status": 200,
-      "response_time_ms": 53,
-      "content_length": 161362,
+      "response_time_ms": 229,
+      "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 0.8,
       "volatility": "volatile",
-      "change_count_12m": 45,
-      "last_change_detected": "2026-09-26",
+      "change_count_12m": 46,
+      "last_change_detected": "2026-09-27",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
       "signals": [
@@ -571,297 +535,268 @@
     {
       "name": "Algorithmic bias",
       "url": "https://en.wikipedia.org/wiki/Algorithmic_bias",
-      "observed_at": "2026-09-26T05:47:20.090Z",
+      "observed_at": "2026-09-27T06:06:41.000Z",
       "http_status": 200,
-      "response_time_ms": 88,
-      "content_length": 0,
+      "response_time_ms": 20,
+      "content_length": 168074,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 52,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Ethics of artificial intelligence",
       "url": "https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence",
-      "observed_at": "2026-09-26T05:47:20.143Z",
+      "observed_at": "2026-09-27T06:06:41.019Z",
       "http_status": 200,
-      "response_time_ms": 53,
-      "content_length": 190623,
+      "response_time_ms": 19,
+      "content_length": 191093,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 49,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "AI governance",
       "url": "https://en.wikipedia.org/wiki/AI_governance",
-      "observed_at": "2026-09-26T05:47:20.426Z",
+      "observed_at": "2026-09-27T06:06:41.250Z",
       "http_status": 200,
-      "response_time_ms": 282,
+      "response_time_ms": 231,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 55,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Autonomous weapons",
       "url": "https://en.wikipedia.org/wiki/Autonomous_weapons",
-      "observed_at": "2026-09-26T05:47:20.556Z",
+      "observed_at": "2026-09-27T06:06:41.313Z",
       "http_status": 200,
-      "response_time_ms": 130,
+      "response_time_ms": 63,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 41,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Training data",
       "url": "https://en.wikipedia.org/wiki/Training_data",
-      "observed_at": "2026-09-26T05:47:20.624Z",
+      "observed_at": "2026-09-27T06:06:41.389Z",
       "http_status": 200,
-      "response_time_ms": 68,
+      "response_time_ms": 76,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 76,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Big data",
       "url": "https://en.wikipedia.org/wiki/Big_data",
-      "observed_at": "2026-09-26T05:47:20.685Z",
+      "observed_at": "2026-09-27T06:06:41.412Z",
       "http_status": 200,
-      "response_time_ms": 61,
-      "content_length": 0,
+      "response_time_ms": 23,
+      "content_length": 169230,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 34,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Data labeling",
       "url": "https://en.wikipedia.org/wiki/Data_labeling",
-      "observed_at": "2026-09-26T05:47:20.743Z",
+      "observed_at": "2026-09-27T06:06:41.461Z",
       "http_status": 200,
-      "response_time_ms": 58,
+      "response_time_ms": 48,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 35,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Model training",
       "url": "https://en.wikipedia.org/wiki/Training_(machine_learning)",
-      "observed_at": "2026-09-26T05:47:21.059Z",
+      "observed_at": "2026-09-27T06:06:41.624Z",
       "http_status": 404,
-      "response_time_ms": 316,
+      "response_time_ms": 163,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.2,
+      "health_score": 0.4,
       "volatility": "volatile",
       "change_count_12m": 21,
       "last_change_detected": "2026-09-26",
-      "citation_risk": "high",
-      "recommended_action": "avoid_as_primary_source",
+      "citation_risk": "medium",
+      "recommended_action": "archive_before_citing",
       "signals": [
         "http_error",
-        "content_shift",
         "no_last_modified"
       ]
     },
     {
       "name": "Inference engine",
       "url": "https://en.wikipedia.org/wiki/Inference_engine",
-      "observed_at": "2026-09-26T05:47:21.084Z",
+      "observed_at": "2026-09-27T06:06:41.680Z",
       "http_status": 200,
-      "response_time_ms": 24,
+      "response_time_ms": 56,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 54,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Artificial intelligence in healthcare",
       "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare",
-      "observed_at": "2026-09-26T05:47:21.114Z",
+      "observed_at": "2026-09-27T06:06:41.688Z",
       "http_status": 200,
-      "response_time_ms": 30,
-      "content_length": 0,
+      "response_time_ms": 8,
+      "content_length": 170881,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 49,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Artificial intelligence in finance",
       "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_finance",
-      "observed_at": "2026-09-26T05:47:21.146Z",
+      "observed_at": "2026-09-27T06:06:41.942Z",
       "http_status": 200,
-      "response_time_ms": 32,
+      "response_time_ms": 254,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 41,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Artificial intelligence in education",
       "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_education",
-      "observed_at": "2026-09-26T05:47:21.175Z",
+      "observed_at": "2026-09-27T06:06:41.954Z",
       "http_status": 200,
-      "response_time_ms": 29,
+      "response_time_ms": 12,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 55,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Artificial intelligence in warfare",
       "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_warfare",
-      "observed_at": "2026-09-26T05:47:21.302Z",
+      "observed_at": "2026-09-27T06:06:42.002Z",
       "http_status": 200,
-      "response_time_ms": 127,
+      "response_time_ms": 48,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 30,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Recommender system",
       "url": "https://en.wikipedia.org/wiki/Recommender_system",
-      "observed_at": "2026-09-26T05:47:21.331Z",
+      "observed_at": "2026-09-27T06:06:42.117Z",
       "http_status": 200,
-      "response_time_ms": 29,
+      "response_time_ms": 115,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 21,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Generative artificial intelligence",
       "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
-      "observed_at": "2026-09-26T05:47:21.350Z",
+      "observed_at": "2026-09-27T06:06:42.125Z",
       "http_status": 200,
-      "response_time_ms": 19,
+      "response_time_ms": 8,
       "content_length": 177698,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 31,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Large language model",
       "url": "https://en.wikipedia.org/wiki/Large_language_model",
-      "observed_at": "2026-09-26T05:47:21.369Z",
+      "observed_at": "2026-09-27T06:06:42.132Z",
       "http_status": 200,
-      "response_time_ms": 19,
-      "content_length": 176570,
+      "response_time_ms": 7,
+      "content_length": 176501,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
       "health_score": 1,
@@ -875,59 +810,53 @@
     {
       "name": "Chatbot",
       "url": "https://en.wikipedia.org/wiki/Chatbot",
-      "observed_at": "2026-09-26T05:47:21.399Z",
+      "observed_at": "2026-09-27T06:06:42.141Z",
       "http_status": 200,
-      "response_time_ms": 30,
-      "content_length": 0,
+      "response_time_ms": 9,
+      "content_length": 95699,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 19,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Artificial intelligence regulation",
       "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_regulation",
-      "observed_at": "2026-09-26T05:47:21.547Z",
+      "observed_at": "2026-09-27T06:06:42.350Z",
       "http_status": 200,
-      "response_time_ms": 148,
+      "response_time_ms": 209,
       "content_length": 0,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 37,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     },
     {
       "name": "Artificial intelligence applications",
       "url": "https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence",
-      "observed_at": "2026-09-26T05:47:21.565Z",
+      "observed_at": "2026-09-27T06:06:42.358Z",
       "http_status": 200,
-      "response_time_ms": 18,
+      "response_time_ms": 8,
       "content_length": 245731,
       "etag": null,
       "title_hash": "e47f2cf7047cfdba8d6e50a8c83d3d49bd967ec099a48462d347833531bf4f84",
-      "health_score": 0.8,
+      "health_score": 1,
       "volatility": "volatile",
       "change_count_12m": 55,
       "last_change_detected": "2026-09-26",
       "citation_risk": "low",
       "recommended_action": "safe_to_cite",
-      "signals": [
-        "content_shift"
-      ]
+      "signals": []
     }
   ]
 }
